@@ -1,0 +1,20 @@
+---
+- name: Pull Docker images
+  docker_image:
+    name: "{{ item }}"
+    source: pull
+  with_items:
+    - bchepngeno1/client
+    - bchepngeno1/backend
+    # Add more Docker images as needed
+
+- name: Copy docker-compose.yml
+  template:
+    src: docker-compose.yml.j2
+    dest: /Desktop/moringa/yolo-app-microservice
+
+- name: Run docker-compose
+  command: docker-compose up -d
+  args:
+    chdir: /Desktop/moringa/yolo-app-microservice
+
