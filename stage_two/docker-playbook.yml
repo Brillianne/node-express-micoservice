@@ -1,0 +1,19 @@
+---
+- name: Provision Resources using Terraform
+  hosts: localhost
+  gather_facts: false
+  become: true
+  tasks:
+   - name: Run Terraform
+     command: terraform apply -auto-approve 
+     args:
+       chdir: /home/chepngen0/Desktop/moringa/yolo-app-microservice/stage_two/terraform/
+
+
+
+
+- name: Run Docker Containers
+  hosts: localhost
+  become: true
+  roles:
+    - ansible
