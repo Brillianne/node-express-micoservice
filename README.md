@@ -1,23 +1,27 @@
-# Requirements
-Make sure that you have the following installed:
-- [node](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04) 
-- npm 
-- [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/) and start the mongodb service with `sudo service mongod start`
+# Week 3 IP Ansible Configuration Management
+Contributors
+Brillian Chepngeno
+February, 2023
 
-## Navigate to the Client Folder 
- `cd client`
+# Project Description
+ Creating an automated Ansible configuration playbook ,The Ansible YAML playbook should trigger both the resources provision using Terraform as well as the server configuration using Ansible roles playbooks on a Vagrant provisioned server.
 
-## Run the folllowing command to install the dependencies 
- `npm install`
+# Project Setup Instruction
+Installation of ansible, virtual-box, vagrant, Docker, Terraform
 
-## Run the folllowing to start the app
- `npm start`
+# Known Bugs
+No known bugs were discovered.
 
-## Open a new terminal and run the same commands in the backend folder
- `cd ../backend`
+# Technologies Used
+Ansible
+Vagrant 
+Terraform
+Virtualization
 
- `npm install`
+# By {List of contributors}
+This playbook was created by Brillian Chepngeno. The git  repo can be found https://github.com/Vinge1718/yolo.
 
- `npm start`
-
- ### Go ahead a nd add a product (note that the price field only takes a numeric input)
+# Support and contact details
+Feel free to contact me with any questions, comments or suggestions concerning the project. Email: brillianchepngeno@gmail.com
+# License
+This Project uses MIT license} Copyright (c) 2022 Brillian Chepngeno
