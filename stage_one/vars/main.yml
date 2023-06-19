@@ -1,0 +1,7 @@
+---
+client_image: "bchepngeno1/client"
+backend_image: "bchepngeno1/backend"
+app_folder: "/opt/yolo"
+file_folder: "home/chepngen0/Desktop/moringa/yolo-app-microservice"
+dest_folder: "home/chepngen0/Desktop"
+
